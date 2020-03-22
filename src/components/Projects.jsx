@@ -5,12 +5,10 @@ import { Container } from 'react-bootstrap'
 export default function Projects() {
     const projectStyle = {
         height: '100vh',
-        justifyContent: 'center',
-        padding: '40vh'
     }
 
     return (
-        <Container fluid>
+        <Container style={ projectStyle } fluid>
             <h1> Projects </h1>
 
             <ProjectCarousel />
