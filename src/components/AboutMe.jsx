@@ -3,8 +3,9 @@ import { Container } from 'react-bootstrap'
 
 export default function AboutMe() {
     const componentStyle = {
-        height: '100%',
-        justifyContent: 'center'
+        height: '100vh',
+        justifyContent: 'center',
+        padding: '40vh'
     }
     return (
         <Container style={ componentStyle }fluid>
