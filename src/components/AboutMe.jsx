@@ -2,12 +2,12 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 
 export default function AboutMe() {
-    const style = {
+    const componentStyle = {
         height: '100%',
         justifyContent: 'center'
     }
     return (
-        <Container fluid>
+        <Container style={ componentStyle }fluid>
             <h1> About Me </h1>
         </Container>
     )
