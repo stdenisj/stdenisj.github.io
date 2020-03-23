@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap'
 export default function AboutMe() {
     const componentStyle = {
         height: '100vh',
+        paddingTop: '10vh'
     }
     return (
         <Container style={ componentStyle }fluid>
