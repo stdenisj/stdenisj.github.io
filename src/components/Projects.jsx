@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCarousel from './ProjectCarousel'
+import ProjectCardDeck from './ProjectCardDeck'
 import { Container } from 'react-bootstrap'
 
 export default function Projects() {
@@ -11,7 +11,7 @@ export default function Projects() {
         <Container style={ projectStyle } fluid>
             <h1> Projects </h1>
 
-            <ProjectCarousel />
+            <ProjectCardDeck />
         </Container>
     )
 }
