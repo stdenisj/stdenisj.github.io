@@ -11,9 +11,10 @@ export default function AboutMe() {
             <h1> About Me </h1>
 
             <p> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Fuga, sapiente similique! Repellat cum ad ipsa! Harum, similique ab. 
-                Illo animi cumque beatae neque cum quas est molestias incidunt quisquam sit.
+            “A vigilante is just a man lost in scramble for his own gratification. 
+            He can be destroyed or locked up. But if you make yourself more than just a man, 
+            if you devote yourself to an ideal and if they can’t stop you then you become something else entirely. 
+            Legend, Mr Wayne.”
             </p>
         </Container>
     )

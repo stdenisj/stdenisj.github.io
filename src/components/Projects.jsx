@@ -9,7 +9,7 @@ export default function Projects() {
     }
 
     return (
-        <Container style={ projectStyle } fluid>
+        <Container style={ projectStyle } id='Projects' fluid>
             <h1> Projects </h1>
 
             <ProjectCardDeck />

@@ -9,10 +9,10 @@ export default function Contact() {
         padding: '50vh 0vh'
     }
     return (
-        <Container style={ contactStyle } fluid>
+        <Container style={ contactStyle } id='Contact' fluid>
             <Row>
                 <Col>
-                    <LinkedIn />
+                    <LinkedIn size='6x'/>
                 </Col>
                 <Col>
                     <GitHub />
