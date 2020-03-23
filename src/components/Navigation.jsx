@@ -4,7 +4,7 @@ import { Nav, Navbar } from 'react-bootstrap'
 export default class Navigation extends Component {
     render() {
         return (
-            <Navbar>
+            <Navbar fixed="top">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
