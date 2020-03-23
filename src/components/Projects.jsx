@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap'
 export default function Projects() {
     const projectStyle = {
         height: '100vh',
+        paddingTop: '10vh'
     }
 
     return (

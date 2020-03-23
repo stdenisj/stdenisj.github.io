@@ -4,11 +4,9 @@ import projectOne  from '../images/Jeopardy_project_image.png'
 import projectThree from '../images/Project_three.png'
 
 export default function ProjectCardDeck() {
-    const carouselStyling = {
-        margin: '20px 50px'
-    }
+
     return (
-        <CardDeck style={carouselStyling}>
+        <CardDeck>
           <Card>
             <a href='https://github.com/stdenisj/Project_3' target='_blank' without rel="noopener noreferrer">
               <Card.Img variant="top" src={ projectThree} />
