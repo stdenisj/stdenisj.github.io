@@ -12,7 +12,7 @@ export default function Contact() {
         <Container style={ contactStyle } id='Contact' fluid>
             <Row>
                 <Col>
-                    <LinkedIn size='6x'/>
+                    <LinkedIn />
                 </Col>
                 <Col>
                     <GitHub />
