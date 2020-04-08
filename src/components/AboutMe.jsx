@@ -1,5 +1,8 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import GitHub from './FontAwesomeComponents/GitHub'
+import LinkedIn from './FontAwesomeComponents/LinkedIn'
+import Contact from './Contact.jsx'
 
 export default function AboutMe() {
     const componentStyle = {
@@ -7,16 +10,19 @@ export default function AboutMe() {
         paddingTop: '10vh',
     }
 
-    const colstyle = {
-        paddingTop: '25vh 2vw',
+    const colStyle = {
+        padding: '25vh 2vw',
     }
     return (
         <Container style={ componentStyle } fluid>
            <Row>
-               <Col style={ colstyle }>
-                    <Image src="http://placehold.it/300x250" rounded />
+               <Col style={ colStyle }>
+                   <Row style={{ justifyContent: 'center' }}>
+                        <Image src="http://placehold.it/300x250" rounded />
+                    </Row>
+                        <Contact />
                </Col>
-               <Col style={ colstyle }>
+               <Col style={ colStyle }>
                     <h1> About Me </h1>
 
                     <p> 

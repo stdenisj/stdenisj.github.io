@@ -4,22 +4,11 @@ import GitHub from './FontAwesomeComponents/GitHub'
 import LinkedIn from './FontAwesomeComponents/LinkedIn'
 
 export default function Contact() {
-    const contactStyle = {
-        height: '100vh',
-        padding: '50vh 0vh'
-    }
+
     return (
-        <Container style={ contactStyle } id='Contact' fluid>
-            <Row>
-                <Col>
-                    <LinkedIn />
-                </Col>
-                <Col>
-                    <GitHub />
-                </Col>
-                <Col>
-                </Col>
+            <Row style={{ justifyContent: 'center' }}>
+                <LinkedIn />
+                <GitHub />
             </Row>
-        </Container>
     )
 }
