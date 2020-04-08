@@ -10,7 +10,7 @@ export default function Projects() {
 
     return (
         <Container style={ projectStyle } id='Projects' fluid>
-            <h1> Projects </h1>
+            <h1> Portfolio </h1>
 
             <ProjectCardDeck />
         </Container>

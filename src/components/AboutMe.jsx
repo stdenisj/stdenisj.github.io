@@ -1,7 +1,5 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import GitHub from './FontAwesomeComponents/GitHub'
-import LinkedIn from './FontAwesomeComponents/LinkedIn'
 import Contact from './Contact.jsx'
 
 export default function AboutMe() {
@@ -14,7 +12,7 @@ export default function AboutMe() {
         padding: '25vh 2vw',
     }
     return (
-        <Container style={ componentStyle } fluid>
+        <Container style={ componentStyle } fluid id='About'>
            <Row>
                <Col style={ colStyle }>
                    <Row style={{ justifyContent: 'center' }}>

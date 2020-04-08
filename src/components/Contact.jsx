@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, Col, Row } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 import GitHub from './FontAwesomeComponents/GitHub'
 import LinkedIn from './FontAwesomeComponents/LinkedIn'
+import Resume from './FontAwesomeComponents/Resume'
 
 export default function Contact() {
 
@@ -9,6 +10,7 @@ export default function Contact() {
             <Row style={{ justifyContent: 'center' }}>
                 <LinkedIn />
                 <GitHub />
+                <Resume />
             </Row>
     )
 }
