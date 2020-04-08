@@ -4,7 +4,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function LinkedIn() {
     return (
-    <a href='https://www.linkedin.com/in/jamesstdenis/' target='_blank' without rel="noopener noreferrer">
+    <a href='https://www.linkedin.com/in/jamesstdenis/' target='_blank' rel="noopener noreferrer">
         <FontAwesomeIcon icon={ faLinkedin }  size='6x'/>
     </a>
     )

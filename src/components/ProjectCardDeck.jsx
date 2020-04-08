@@ -8,11 +8,11 @@ export default function ProjectCardDeck() {
     return (
         <CardDeck>
           <Card>
-            <a href='https://github.com/stdenisj/Project_3' target='_blank' without rel="noopener noreferrer">
+            <a href='https://github.com/stdenisj/Project_3' target='_blank' rel="noopener noreferrer">
               <Card.Img variant="top" src={ projectThree} />
             </a>
             <Card.Body>
-              <a href='https://github.com/stdenisj/Project_3' target='_blank' without rel="noopener noreferrer">
+              <a href='https://github.com/stdenisj/Project_3' target='_blank' rel="noopener noreferrer">
                 <Card.Title>Veganelp</Card.Title>
               </a>
                 <Card.Text>
@@ -22,11 +22,11 @@ export default function ProjectCardDeck() {
               </Card.Body>
             </Card>
             <Card>
-              <a href='https://github.com/stdenisj/jeopardyProject' target='_blank' without rel="noopener noreferrer">
+              <a href='https://github.com/stdenisj/jeopardyProject' target='_blank' rel="noopener noreferrer">
                 <Card.Img variant="top" src={ projectOne } />
               </a>
               <Card.Body>
-                <a href='https://github.com/stdenisj/jeopardyProject' target='_blank' without rel="noopener noreferrer">
+                <a href='https://github.com/stdenisj/jeopardyProject' target='_blank' rel="noopener noreferrer">
                   <Card.Title>Automotive Jeopardy</Card.Title>
                 </a>
                 <Card.Text>

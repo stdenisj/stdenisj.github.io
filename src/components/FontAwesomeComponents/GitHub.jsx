@@ -4,7 +4,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function GitHub() {
     return (
-        <a href='https://github.com/stdenisj' target='_blank' without rel="noopener noreferrer">
+        <a href='https://github.com/stdenisj' target='_blank' rel="noopener noreferrer">
             <FontAwesomeIcon icon={ faGithub }  size='6x'/>
         </a>
     )
