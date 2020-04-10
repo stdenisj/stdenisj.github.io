@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, CardDeck } from 'react-bootstrap'
 import projectOne  from '../images/Jeopardy_project_image.png'
 import projectThree from '../images/Project_three.png'
+import projectFour from '../images/project_4.png'
 
 export default function ProjectCardDeck() {
 
@@ -35,17 +36,20 @@ export default function ProjectCardDeck() {
                 </Card.Text>
               </Card.Body>
             </Card>
-            {/* <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+            <Card>
+            <a href='https://github.com/stdenisj/banking-app' target='_blank' rel="noopener noreferrer">
+              <Card.Img variant="top" src={ projectFour} />
+              </a>
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+              <a href='https://github.com/stdenisj/banking-app' target='_blank' rel="noopener noreferrer">
+                  <Card.Title>Bank</Card.Title>
+                </a>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This card has even longer content than the first to
-                  show that equal height action.
+                  App that allows users to add bank accounts and transactions to their profiles.
+                  built using Django and React.js, Authentication using Simple_JWT
                 </Card.Text>
               </Card.Body>
-            </Card> */}
+            </Card>
           </CardDeck>
     )
 }
