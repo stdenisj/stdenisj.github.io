@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6c1059192f612ca4e73afb8a865b3ad",
+    "revision": "22b87c05cfb2cd5fde14f041fb307591",
     "url": "/index.html"
   },
   {
-    "revision": "91ed90e97d66bf34d672",
+    "revision": "e21eec7480e97c367717",
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "f5b301ebeb6e286d86bc",
+    "revision": "9d9c31a1b2c38a161334",
     "url": "/static/css/main.0a42c01b.chunk.css"
   },
   {
-    "revision": "91ed90e97d66bf34d672",
-    "url": "/static/js/2.4982ba86.chunk.js"
+    "revision": "e21eec7480e97c367717",
+    "url": "/static/js/2.d3edaf94.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.4982ba86.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d3edaf94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5b301ebeb6e286d86bc",
-    "url": "/static/js/main.ec923a67.chunk.js"
+    "revision": "9d9c31a1b2c38a161334",
+    "url": "/static/js/main.0d4d40b6.chunk.js"
   },
   {
     "revision": "5284eec07972ace79c95",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "819bf36e6b40418c582cc9fdefac069b",
     "url": "/static/media/Stdenis.James_resume1.819bf36e.pdf"
+  },
+  {
+    "revision": "78acdf1515e9eed9c24b312f130a58ca",
+    "url": "/static/media/project_4.78acdf15.png"
   },
   {
     "revision": "28e158afc013f5b94e72ce9c5b44595f",
