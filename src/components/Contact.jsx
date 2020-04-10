@@ -10,7 +10,7 @@ export default function Contact() {
             <Row style={{ justifyContent: 'center' }}>
                 <LinkedIn />
                 <GitHub />
-                <Resume  size={ '3x' } />
+                <Resume />
             </Row>
     )
 }
