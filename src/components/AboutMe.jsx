@@ -4,23 +4,19 @@ import Contact from './Contact.jsx'
 
 export default function AboutMe() {
     const componentStyle = {
-        height: '100vh',
-        paddingTop: '10vh',
-    }
-
-    const colStyle = {
-        padding: '25vh 2vw',
+        height: '90vh',
+        padding: '10vw 5vh',
     }
     return (
         <Container style={ componentStyle } fluid id='About'>
-           <Row>
-               <Col style={ colStyle }>
+           <Row style={{ position: 'center'}}>
+               <Col>
                    <Row style={{ justifyContent: 'center' }}>
                         <Image src="http://placehold.it/300x250" rounded />
                     </Row>
                         <Contact />
                </Col>
-               <Col style={ colStyle }>
+               <Col style={{ justifyContent: 'center' }}>
                     <h1> About Me </h1>
 
                     <p> 
