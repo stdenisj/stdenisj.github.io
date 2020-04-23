@@ -17,14 +17,12 @@ export default function AboutMe() {
                     </Row>
                         <Contact />
                </Col>
-               <Col style={{ justifyContent: 'center' }} lg={ true }>
+               <Col style={{ justifyContent: 'center', paddingTop: '20vh' }} lg={ true }>
                     <h1> About Me </h1>
-
                     <p> 
-                        “A vigilante is just a man lost in scramble for his own gratification. 
-                        He can be destroyed or locked up. But if you make yourself more than just a man, 
-                        if you devote yourself to an ideal and if they can’t stop you then you become something else entirely. 
-                        Legend, Mr Wayne.”
+                        I am a full-stack developer who is passionate about working hard and helping others. 
+                        I use my problem solving, creative thinking skills, and desire to serve others to 
+                        benefit my clients, coworkers and employer. 
                     </p>
                 </Col>
             </Row>

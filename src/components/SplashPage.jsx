@@ -16,7 +16,7 @@ export default function SplashPage() {
 
     const divStyle ={
         marginTop: '10vh',
-        padding: '10px',
+        padding: '5px',
         justifyContent: 'center',
         backgroundColor: 'rgb(200, 200, 200, 0.2',
         borderRadius: '5px',
