@@ -46,7 +46,7 @@ export default function ProjectCardDeck() {
                 </a>
                 <Card.Text>
                   App that allows users to add bank accounts and transactions to their profiles.
-                  built using Django and React.js, Authentication using Simple_JWT
+                  Built using Django and React.js, Authentication using Simple_JWT
                 </Card.Text>
               </Card.Body>
             </Card>

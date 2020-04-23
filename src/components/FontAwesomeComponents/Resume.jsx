@@ -6,7 +6,7 @@ import ResumeFile from '../../Stdenis.James_resume1.pdf'
 export default function Resume() {
     return (
         <a href={ ResumeFile } target='_blank' rel="noopener noreferrer" style={{ padding: '2vw' }}>
-            <FontAwesomeIcon icon={ faFileAlt }  size='3x'/>
+            <FontAwesomeIcon icon={ faFileAlt }  size='2x'/>
             <p>Resume</p>
         </a>
     )
