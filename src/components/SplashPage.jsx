@@ -27,11 +27,9 @@ export default function SplashPage() {
             <Row>
                 <Col>
                 </Col>
-                <Col>
-                    <Row style={ divStyle }>
+                <Col style={ divStyle }>
                         <h2> Jame St-Denis</h2><br/>
                         <h3> Software Engineer, Honest, and Hardworking </h3>
-                    </Row>
                 </Col>
             </Row>
         </Container>
