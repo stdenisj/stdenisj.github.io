@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
-import ResumeFile from '../Stdenis.James_resume1.pdf'
+import ResumeFile from '../Stdenis.James_Resume.pdf'
 
 export default class Navigation extends Component {
     render() { 

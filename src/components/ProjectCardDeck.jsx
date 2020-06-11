@@ -3,6 +3,7 @@ import { Card, CardDeck } from 'react-bootstrap'
 import projectOne  from '../images/Jeopardy_project_image.png'
 import projectThree from '../images/Project_three.png'
 import projectFour from '../images/project_4.png'
+import MovieApp from '../images/Movie_app.png'
 
 export default function ProjectCardDeck() {
 
@@ -47,6 +48,20 @@ export default function ProjectCardDeck() {
                 <Card.Text>
                   App that allows users to add bank accounts and transactions to their profiles.
                   Built using Django and React.js, Authentication using Simple_JWT
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+            <a href='https://github.com/stdenisj/movieapp' target='_blank' rel="noopener noreferrer">
+              <Card.Img variant="top" src={ MovieApp } />
+              </a>
+              <Card.Body>
+              <a href='https://github.com/stdenisj/movieapp' target='_blank' rel="noopener noreferrer">
+                  <Card.Title>MovieApp</Card.Title>
+                </a>
+                <Card.Text>
+                  Application designed to recommend movies and allow a search or specific movies or actors/actresses.
+                  MERN Stack application focusing on using the Movie Database API
                 </Card.Text>
               </Card.Body>
             </Card>

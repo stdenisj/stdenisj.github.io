@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons'
-import ResumeFile from '../../Stdenis.James_resume.pdf'
+import ResumeFile from '../../Stdenis.James_Resume.pdf'
 
 export default function Resume() {
     return (
